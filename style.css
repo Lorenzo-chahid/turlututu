@@ -1,0 +1,273 @@
+/* GENERAL */
+*{
+    margin:0;
+    padding:0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    
+}
+
+p{
+    
+    font-size: 15px;
+}
+
+h3{
+    color:black;
+    font-weight: 300;
+    font-size: 24px;
+}
+body{
+    background:white;
+    max-width: 100%;
+    margin:auto;
+}
+.bluefond{
+    background: rgb(30,147,204);
+}
+
+.gray{
+    padding-top: 20px;
+    margin:auto;
+    color: rgb(161, 159, 159);
+}
+.black{
+    padding-top: 20px;
+}
+/* HEADER */
+header{
+    text-decoration: none;
+    background: #333333;
+    min-height: 60px;
+    clear: both;
+    min-width: 100%;
+    position: sticky;
+}
+
+nav li{
+    display: inline;
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    padding-left: 8px;
+    
+
+}
+
+nav li:hover{
+    background: #222222;
+}
+ul{
+    display: flex;
+    margin-left: 200px;
+}
+a{
+    padding-top: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.corps{
+    padding-top: 50px;
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+    min-height: 300px;
+    position: relative;
+    padding-left: 200px;
+}
+.cloud{
+    position: relative;
+    left: 20px;
+}
+/* .div_text{
+   order: 2;
+   align-content: space-between;
+
+}
+*/
+
+.homme{
+    margin-right: 100px;
+}
+
+
+
+.plug{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+i{
+    position: relative;
+    left: 200px;
+
+}
+
+/****************** INTER BODY ******************/
+
+.bordure{
+    min-width: 100%;
+    background: white;
+    max-height: 20px;
+    position: static;
+}
+
+/* Body */
+
+section{
+    clear:both;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    align-items:center;
+    justify-content: space-around;
+    padding-left: 90px;
+    padding-right: 80px;
+    font-size: 15px;
+}
+
+.position{
+    display:flex;
+    flex-direction: column;
+    
+}
+.logo{
+    padding-left: 400px;
+    padding-top: 250px;
+}
+
+button{
+    width: 300px;
+    height: 60px;
+    border-radius: 9px;
+    background: #e99002;
+    border: 2px white solid;
+    font-size: 22.5px;
+    line-height: 30px;
+
+}
+.start{
+    position: relative;
+    left: 40px;
+}
+button:hover{
+    background: #ba7200;
+}
+
+.bandeau{
+    background: white;
+    max-width: 100%;
+    min-height: 2em;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.btn-1, .btn-2{
+    text-align: center;
+    background: #165882;
+    max-width: 200px;
+    min-height: 66px;
+   
+}
+
+.btn-3{
+    text-align: center;
+    max-width: 200px;
+    min-height: 66px;
+}
+.btn-1:hover, .btn-2:hover{
+    background: #4a80a3;
+}
+
+.partenaire{
+    min-height: 300px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 100px;
+    background: #eeeeee;
+    
+}
+
+#sponso{
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.red{
+    position: relative;
+    top: 100px;
+    right: 550px;
+}
+
+/* interfooter */
+
+.interligne{
+    border-top: 2px solid rgba(51,51,51, 0.1) ;
+    margin-bottom: 4px;
+}
+
+/*   FOOTER    */
+
+footer{
+    min-width: 100%;
+    min-height: 50px;
+    background: #1b1f23;
+    clear: both;
+}
+
+.foot_nav{
+   position: relative;
+   left: -200px;
+   display: flex;
+   padding-top: 10px;
+   padding-left: 5px;
+   clear: both;
+}
+
+.foot_nav li{
+   
+    margin-left: 5px;
+    border-left: 2px dotted white;
+    padding-left: 5px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 18.2px;
+    clear: both;
+}
+.foot_nav li:first-of-type{
+    border: none;
+    clear: both;
+}
+
+.foot_nav li a:hover{
+    /*border-bottom: 1px solid white; */
+    text-decoration: underline;
+    clear: both;
+}
+
+.legal{
+    position: relative;
+    left: 900px;
+    clear: both;
+}
+
+.flat{
+  
+  position: fixed;
+}
