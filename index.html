@@ -4,7 +4,9 @@
     <head>
         <meta charset="utf-8" />
         <title> Layout </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+       <!-- <link rel="stylesheet" type="text/css" href="style.css">  -->
+        <link rel="stylesheet" media="screen and (min-width: 1000px)" href="style.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 640px)" href="smallscreen.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3f5d2c0df9.js"></script>
         <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
@@ -15,15 +17,15 @@
         <header>
             <nav>
                 <ul>
-                    <li><img src="img/logo_2.png" alt="logo"></li>
-                    <li><a href="/">Features</a></li>
-                    <li><a href="/">Docs</a></li>
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/"> Templates</a></li>
-                    <li><a href="/">Pricing</a></li>
-                    <li><a href="/">Contacts</a></li>
-                    <li><a href="/">Sign Up</a></li>
-                    <li><a href="/"><i class="fas fa-user">Log In</i></a></li>
+                    <li class="nav-item"><img src="img/logo_2.png" alt="logo"></li>
+                    <li class="nav-item"><a href="/">Features</a></li>
+                    <li class="nav-item"><a href="/">Docs</a></li>
+                    <li class="nav-item"><a href="/">Blog</a></li>
+                    <li class="nav-item"><a href="/"> Templates</a></li>
+                    <li class="nav-item"><a href="/">Pricing</a></li>
+                    <li class="nav-item"><a href="/">Contacts</a></li>
+                    <li class="nav-item"><a href="/">Sign Up</a></li>
+                    <li class="nav-item"><a href="/"><i class="fas fa-user">Log In</i></a></li>
                 </ul>
             </nav>
         </header>
@@ -109,7 +111,6 @@
                     <li><a href="/">Privacy Policy</a></li>
                     <li><a href="/" class="legal">© 2017 turlututu.com</a></li>
                 </ul>
-                <img src="img/flat.png" alt="flaticon" class="flat">
             </nav>
         </footer>
     </body>

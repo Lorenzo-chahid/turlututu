@@ -45,7 +45,7 @@ header{
     position: sticky;
 }
 
-nav li{
+/*nav li{
     display: inline;
     text-decoration: none;
     display: flex;
@@ -53,6 +53,39 @@ nav li{
     padding-left: 8px;
     
 
+}*/
+.nav {
+    position:relative;
+    display:inline-block;
+    font-size:14px;
+    font-weight:900;
+    list-style-type: none;
+}
+
+
+li{
+    list-style-type: none;
+}
+ 
+.nav-item {
+  float:left;
+  *display:inline;
+  zoom:1;
+}
+.nav-item a {
+  display:block;
+  padding:15px 20px;
+  color:#FFF;
+  
+}
+.nav-item:first-child a {
+  border-radius:5px 0 0 5px;
+}
+.nav-item:last-child a {
+  border-radius:0 5px 5px 0;
+}
+.nav-item a:hover {
+  background:#2C3E50;
 }
 
 nav li:hover{
@@ -63,6 +96,7 @@ ul{
     margin-left: 200px;
 }
 a{
+    list-style-type: none !important;
     padding-top: 8px;
     text-decoration: none;
     color: white;
