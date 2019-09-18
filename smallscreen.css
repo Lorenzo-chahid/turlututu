@@ -1,13 +1,38 @@
 @media screen and (max-width: 999px) {
   *{
+
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    color: white;
+    font-weight: lighter;
+  }
+  .mobile{
+    display: none;
+  }
+
+  .nav-item-1{
+    display: relative;
+    left: 40%;
+  }
+  p{
+    font-size: 1em;
+    text-align: center;
+  }
+
+  h2{
+    text-align: start;
+    padding-top: 1em;
   }
   body{
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
   }
   header{
     background: #333333;
+    width: 100%;
   }
 
   nav ul{
@@ -28,19 +53,34 @@
 
   .homme{
     min-width: 100%;
-    margin: euto;
+    margin: auto;
   }
 
   .bordure{
     color:white;
   }
+  .corps{
+    background: rgb(30,147,204);
+  }
 
+  .start{
+    width: 50%;
+    margin: auto;
+    
+  }
+
+  .head_txt{
+    margin-bottom: 1em;
+  }
   .partenaire{
+    padding-top: 1em;
+    padding-bottom: 1em;
     background:#eeeeee;
     display: flex;
     flex-flow: column-reverse wrap;
     order: 3;
     align-content: space-around;
+    justify-content: space-around;
   }
 
   button{
@@ -61,6 +101,7 @@
 
   
   .container{
+    margin-top: 1em;
     background: rgb(30,147,204);
     display: flex;
     flex-direction: column;
@@ -82,5 +123,20 @@
 
   #sponso{
     order: 2;
+  }
+  .gray{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: black;
+  }
+  .plug{
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter;
+  }
+  .for{
+    font-size: 2em;
+    color: black;
+    text-align: center;
   }
   }

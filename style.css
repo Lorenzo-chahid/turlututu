@@ -8,6 +8,8 @@
     
 }
 
+
+
 p{
     
     font-size: 15px;
@@ -71,6 +73,10 @@ li{
   float:left;
   *display:inline;
   zoom:1;
+}
+
+.nav-item-1{
+    display: none;
 }
 .nav-item a {
   display:block;
