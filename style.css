@@ -78,6 +78,9 @@ li{
 .nav-item-1{
     display: none;
 }
+.fa-user{
+    display: none;
+}
 .nav-item a {
   display:block;
   padding:15px 20px;
